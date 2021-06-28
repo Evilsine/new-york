@@ -1,0 +1,29 @@
+.text-intro{
+    opacity: 0;
+}
+
+/* .img-intro-right{
+    opacity: 0;
+} */
+
+@keyframes fadein-bottom{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-right{
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
