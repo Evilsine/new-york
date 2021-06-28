@@ -63,7 +63,7 @@ section{
 
 video{
     position: absolute;
-    object-fit: fill;
+    object-fit: cover;
     top: 0;
     left: 0;
     width: 100%;
@@ -83,7 +83,9 @@ video{
 
 .main-image{
     position: absolute;
-    height: 100%;
+    object-fit: cover;
+    height: 100vh;
+    min-width: 100vw;
     top: 0;
     z-index: -1;
 }
