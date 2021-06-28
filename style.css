@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+section{
+    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    scroll-snap-align: start;
+}
+
+.one{
+    position: relative;
+    background: #474259;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-title{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: futura;
+}
+
+#discover{
+    font-size: 70px;
+    color: rgb(104, 104, 104);
+    transform: translateX(1px);
+}
+
+#newyork{
+    font-size: 90px;
+    color: rgb(49, 49, 49);
+    transform: translateY(-40px);
+}
+
+video{
+    position: absolute;
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.two{
+    position: relative;
+    background: #2e2e2e;
+    z-index: 1;
+}
+
+.main-image{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.description-text{
+    position: absolute;
+}
+
+#title-times-square{
+    left: 5%;
+    top: 10%;
+    color: rgb(228, 228, 228);
+}
+
+#img-times-square{
+    left: 400px;
+    transition: 0.5s;
+}
+
+#img-times-square:hover{
+    transform: translateX(-100px);
+}
+
+#text-times-square{
+    left: 5%;
+    bottom: 20%;
+    width: 390px;
+    color: rgb(216, 216, 216);
+}
+
+.page-title{
+    position: absolute;
+    font-family: futura;
+    font-size: 70px;
+}
+
+.three{
+    background: #F199F2;
+}
+
+.four{
+    background: #495ABF;
+}
