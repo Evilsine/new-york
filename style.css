@@ -207,6 +207,7 @@ video{
     position: absolute;
     left: 25%;
     height: 100vh;
+    z-index: -1;
     /* width: 100%; */
 }
 
