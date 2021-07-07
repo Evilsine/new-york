@@ -1,0 +1,117 @@
+@media(max-width: 700px){
+    .burger{
+        position: absolute;
+        bottom: 5vh;
+        left: 5vw;
+    }
+
+    .burger div{
+        width: 25px;
+        height: 2.5px;
+        margin-top: 5px;
+        background-color: rgb(255, 255, 255);
+        transition: all 0.3s ease;
+    }
+
+    .navigation-links-desktop{
+        display: none;
+    }
+
+    .navigation-links-mobile{
+        font-size: 30px;
+        display: inline;
+        position: absolute;
+        width: 90vw;
+        bottom: 12vh;
+        left: 5vw;
+        display: flex;
+    }
+
+    .navigation-links-mobile ul li a{
+        display: inline;
+        background: black;
+        color: rgb(209, 209, 209);
+    }
+
+    .main-title{
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .main-image{
+        height: 100vh;
+    }
+
+    #discover{
+        font-size: 10vw;
+        transform: translateX(1px);
+    }
+
+    #newyork{
+        font-size: 15vw;
+        transform: translateY(-15px);
+    }
+
+    .page-title{
+        font-size: 10vw;
+    }
+
+    #text-times-square{
+        left: 5vw;
+        bottom: 5vh;
+        width: 90vw;
+        color: rgb(216, 216, 216);
+    }
+
+    #text-moma{
+        text-align: right;
+        right: 5vw;
+        top: 5vh;
+        width: 90vw;
+        color: rgb(255, 255, 255);
+    }
+
+    #text-met{
+        width: 90vw;
+        left: 5vw;
+        bottom: 5vh;
+    }
+
+    #text-joes{
+        left: 5vw;
+        bottom: 15vh;
+    }
+
+    .credit{
+        height:fit-content;
+        padding: 5vw;
+        display: block;
+    }
+
+    .credit-container{
+        display: block;
+        width: 90vw;
+        left: 5vw;
+    }
+
+    .credit-item h3{
+        color: rgb(201, 201, 201);
+        font-size: 16px;
+    }
+    
+    .credit-item h4{
+        color: rgb(145, 145, 145);
+        font-size: 12px;
+    }
+
+    #credit-website-name{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    #credit-author{
+        color: rgb(155, 155, 155);
+        font-size: 14px;
+    }
+}

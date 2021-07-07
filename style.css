@@ -42,53 +42,36 @@ section{
 }
 
 .main-title{
-    /* background: black; */
-    position: absolute;
-    top: 10vh;
-    left: 10vw;
-    width: 90vw;
-    /* height: 100px; */
     font-family: futura;
 }
 
-.navigation{
-    display: flex;
-    position: absolute;
-    bottom: 20px;
-    left: 5px;
-    font-size: 25px;
-    /* text-align: left; */
+#discover{
+    color: rgb(90, 90, 90);
 }
+
+#newyork{
+    color: rgb(49, 49, 49);
+}
+
 
 .navigation-links{
+    z-index: 2;
+    font-size: 25px;
+    position: absolute;
     display: flex;
 }
 
-.navigation ul{
-    display: flex;
-}
 
-.navigation li{
+.navigation-links li{
     list-style: none;
     margin-right: 30px;
 }
 
-.navigation a{
+.navigation-links a{
     color: rgb(121, 121, 121);
     text-decoration: none;
 }
 
-#discover{
-    font-size: 70px;
-    color: rgb(90, 90, 90);
-    transform: translateX(1px);
-}
-
-#newyork{
-    font-size: 90px;
-    color: rgb(49, 49, 49);
-    transform: translateY(-40px);
-}
 
 video{
     position: absolute;
@@ -104,18 +87,18 @@ video{
     background: #2e2e2e;
     z-index: 1;
 }
+
 .page-title{
     position: absolute;
-    font-family: futura;
-    font-size: 70px;
+
 }
 
 .main-image{
     position: absolute;
     object-fit: cover;
-    height: 100vh;
-    min-width: 100vw;
-    top: 0;
+    /* height: 100vh; */
+    /* min-width: 100vw; */
+    /* top: 0; */
     z-index: -1;
 }
 
@@ -129,14 +112,6 @@ video{
     color: rgb(228, 228, 228);
 }
 
-#img-times-square{
-    left: 400px;
-    transition: 0.5s;
-}
-
-#img-times-square:hover{
-    transform: translateX(-100px);
-}
 
 #text-times-square{
     left: 5vw;
@@ -145,20 +120,11 @@ video{
     color: rgb(216, 216, 216);
 }
 
-
 .three{
     z-index: 1;
     background: #a8a8a8;
 }
 
-#img-moma{
-    right: 340px;
-    transition: 0.5s;
-}
-
-#img-moma:hover{
-    transform: translateX(100px);
-}
 
 #title-moma{
     right: 5%;
@@ -178,24 +144,9 @@ video{
     background: #495ABF;
 }
 
-#img-met{
-    left: 25vw;
-    transition: 0.5s;
-}
-
-#img-met:hover{
-    transform: translateX(-5vw);
-}
-
 #title-met{
     top: 10vh;
     left: 5vw;
-}
-
-#text-met{
-    bottom: 20vh;
-    left: 5vw;
-    width: 40vw;
 }
 
 .five{
@@ -209,7 +160,6 @@ video{
     z-index: -1;
     left: 25%;
     height: 100vh;
-    /* width: 100%; */
 }
 
 #title-joes{
@@ -217,33 +167,16 @@ video{
     top: 10vh;
 }
 
-#text-joes{
-    right: 5vw;
-    bottom: 20vh;
-    width: 20rem;
-}
+
+
 
 .credit{
-    height: 300px;
+    /* height: 300px; */
     background: rgb(48, 48, 48);
-    font-family: futura;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
-.credit-container{
-    width: 90vw;
-    /* background: blue; */
-    display: flex;
-    position: relative;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-.column{
-    width: 33.33%;
-}
 
 
 #credits-title-main{
@@ -258,30 +191,20 @@ video{
 
 .credit-item h3{
     color: rgb(201, 201, 201);
-    font-size: 20px;
 }
 
 .credit-item h4{
     color: rgb(145, 145, 145);
-    font-size: 16px;
+}
+
+.image-credits{
+    display: flex;
 }
 
 .column2{
-    padding-top: 52px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.column3{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-}
-
-#credit-website-name{
-    font-size: 30px;
 }
 
 #credit-author{
@@ -328,4 +251,3 @@ video{
     height: 100%;
     border-radius: 10px;
 }
-
