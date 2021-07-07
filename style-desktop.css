@@ -5,10 +5,12 @@
         left: 10vw;
         width: 90vw;
     }
-
+    .navigation-links{
+        opacity: 0;
+        animation: navintro 1s 2s forwards;
+    }
 
     .navigation-links-desktop ul{
-        transform: translate(5px, -50px);
         display: flex;
     }
 
@@ -19,11 +21,15 @@
     #discover{
         font-size: 70px;
         transform: translateX(1px);
+        animation: discover 1s 1s ease both,
+        text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
     }
     
     #newyork{
         font-size: 90px;
         transform: translateY(-40px);
+        animation: newyork 1s 1s ease both,
+        text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
     }
 
     .page-title{

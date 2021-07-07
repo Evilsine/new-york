@@ -45,3 +45,39 @@
     }
 }
 
+@keyframes discover{
+    0%{
+        transform: translateX(20vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes newyork{
+    0%{
+        transform: translate(30vw, -40px);
+    }
+    100%{
+        transform: translateX(0, -40px);
+    }
+}
+
+@keyframes text-clip {
+    from {
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes navintro{
+    from{
+        opacity: 0;
+        transform: translateY(4px, 0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(4px, -50px);
+    }
+}

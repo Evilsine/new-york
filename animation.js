@@ -47,3 +47,15 @@ mapPage.forEach(mappage => {
 });
 
 
+const burgerButton = document.querySelector('.burger');
+const mobileMenu = document.querySelector('.navigation-links-mobile');
+
+burgerButton.addEventListener('click',() =>{
+  if(mobileMenu.style.display != "flex"){
+    mobileMenu.style.display = "flex";
+  }else{
+    mobileMenu.style.display = "none";
+  }
+})
+
+

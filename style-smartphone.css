@@ -19,18 +19,20 @@
 
     .navigation-links-mobile{
         font-size: 25px;
-        display: inline;
+        /* display: inline; */
         position: absolute;
         width: 90vw;
         bottom: 12vh;
         left: 5vw;
-        display: flex;
+        display: none;
     }
 
     .navigation-links-mobile ul li a{
-        display: inline;
-        background: black;
-        color: rgb(209, 209, 209);
+        opacity: 0.8;
+
+        /* display: inline; */
+        /* background: black; */
+        color: rgb(255, 255, 255);
     }
 
     .main-title{
