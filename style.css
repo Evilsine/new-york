@@ -12,7 +12,8 @@ html{
 
 body{
     overflow-x: hidden;
-    font-family: futura;
+    /* font-family: futura; */
+    font-family: 'Oswald', sans-serif;
 }
 
 p{
@@ -42,7 +43,7 @@ section{
 }
 
 .main-title{
-    font-family: futura;
+    /* font-family: futura; */
 }
 
 #discover{
@@ -243,7 +244,7 @@ video{
 .show-map{
     cursor: pointer;
     text-decoration: underline;
-    font-family: futura;
+    /* font-family: futura; */
 }
 
 .map{

@@ -18,7 +18,7 @@
     }
 
     .navigation-links-mobile{
-        font-size: 30px;
+        font-size: 25px;
         display: inline;
         position: absolute;
         width: 90vw;
@@ -44,12 +44,12 @@
     }
 
     #discover{
-        font-size: 10vw;
+        font-size: 40px;
         transform: translateX(1px);
     }
 
     #newyork{
-        font-size: 15vw;
+        font-size: 50px;
         transform: translateY(-15px);
     }
 
