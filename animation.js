@@ -56,6 +56,7 @@ burgerButton.addEventListener('click',() =>{
   }else{
     mobileMenu.style.display = "none";
   }
+  burgerButton.classList.toggle('toggle');
 })
 
 
